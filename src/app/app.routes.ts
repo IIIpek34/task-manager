@@ -6,5 +6,6 @@ export const routes: Routes = [
   { path: '', redirectTo: 'list', pathMatch: 'full' },
   { path: 'list', component: List },
   { path: 'editor', component: Editor },
+  { path: 'editor/:id', component: Editor },
   { path: '**', redirectTo: 'list' }
 ];
